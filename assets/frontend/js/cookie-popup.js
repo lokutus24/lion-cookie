@@ -59,6 +59,64 @@ document.addEventListener('DOMContentLoaded', function () {
         document.cookie = `user_accepted_cookies=${JSON.stringify(preferences)}; path=/; max-age=${365 * 24 * 60 * 60}`;
         updateConsentMode(preferences);
         sendCookieDecision(preferences);
+        removeDisallowedCookies(preferences);
+    }
+
+    const STAT_COOKIE_PATTERNS = [
+        /^_ga$/,                 // GA4
+        /^_ga_[A-Z0-9]+$/,       // GA4 property
+        /^_gid$/,                // GA
+        /^_gat(_.*)?$/,          // GA throttle
+        /^_gac_.*$/,             // Google Ads kampány info
+        /^_gcl_au$/,             // Google Ads auto-tagging (statisztika/attrib)
+        /^_clck$/, /^_clsk$/, /^CLID$/, /^ANONCHK$/, /^MR$/, /^MUID$/, // Microsoft Clarity/Microsoft
+        /^_hj.*$/,               // Hotjar
+        /^_pk_id\..*$/, /^_pk_ses\..*$/, /^_pk_ref\..*$/ // Matomo/Piwik
+    ];
+
+    const MKT_COOKIE_PATTERNS = [
+        /^_fbp$/, /^_fbc$/,                                // Facebook
+        /^_gcl_au$/, /^_gcl_aw$/,                          // Google Ads
+        /^IDE$/, /^DSID$/, /^AID$/,                        // DoubleClick/Google Ads (3rd party!)
+        /^_uetsid$/, /^_uetvid$/, /^MUID$/,                // Microsoft Ads (Bing UET)
+        /^_ttp$/,                                          // TikTok
+        /^_pin_unauth$/, /^_pinterest_.*$/,                // Pinterest
+        /^personalization_id$/, /^guest_id$/, /^muc_ads$/, // Twitter/X
+        /^bcookie$/, /^bscookie$/, /^li_gc$/,              // LinkedIn
+    ];
+
+    /**
+     * Engedélyezetlen sütik törlése
+     */
+    function removeDisallowedCookies(preferences) {
+        const cookies = document.cookie.split(';');
+
+        cookies.forEach(cookie => {
+            const [name] = cookie.trim().split('=');
+
+            const isStatCookie = isStatisticsCookie(name);
+            const isMarketing = isMarketingCookie(name);
+
+            if ((!preferences.statistics && isStatCookie) || (!preferences.marketing && isMarketing)) {
+                document.cookie = `${name}=; expires=Thu, 01 Jan 1970 00:00:00 GMT; path=/;`;
+
+                const domainParts = location.hostname.split('.');
+                for (let i = 0; i < domainParts.length - 1; i++) {
+                    const domain = '.' + domainParts.slice(i).join('.');
+                    document.cookie = `${name}=; expires=Thu, 01 Jan 1970 00:00:00 GMT; path=/; domain=${domain};`;
+                }
+            }
+        });
+
+        window.dispatchEvent(new Event('cookiesUpdated'));
+    }
+
+    function isStatisticsCookie(name) {
+        return STAT_COOKIE_PATTERNS.some(pattern => pattern.test(name));
+    }
+
+    function isMarketingCookie(name) {
+        return MKT_COOKIE_PATTERNS.some(pattern => pattern.test(name));
     }
 
     /**
