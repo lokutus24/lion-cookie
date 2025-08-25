@@ -59,6 +59,48 @@ document.addEventListener('DOMContentLoaded', function () {
         document.cookie = `user_accepted_cookies=${JSON.stringify(preferences)}; path=/; max-age=${365 * 24 * 60 * 60}`;
         updateConsentMode(preferences);
         sendCookieDecision(preferences);
+        removeDisallowedCookies(preferences);
+    }
+
+    /**
+     * Engedélyezetlen sütik törlése
+     */
+    function removeDisallowedCookies(preferences) {
+        const cookies = document.cookie.split(';');
+
+        cookies.forEach(cookie => {
+            const [name] = cookie.trim().split('=');
+
+            const isStatCookie = isStatisticsCookie(name);
+            const isMarketing = isMarketingCookie(name);
+
+            if ((!preferences.statistics && isStatCookie) || (!preferences.marketing && isMarketing)) {
+                document.cookie = `${name}=; expires=Thu, 01 Jan 1970 00:00:00 GMT; path=/;`;
+
+                const domainParts = location.hostname.split('.');
+                for (let i = 0; i < domainParts.length - 1; i++) {
+                    const domain = '.' + domainParts.slice(i).join('.');
+                    document.cookie = `${name}=; expires=Thu, 01 Jan 1970 00:00:00 GMT; path=/; domain=${domain};`;
+                }
+            }
+        });
+
+        window.dispatchEvent(new Event('cookiesUpdated'));
+    }
+
+    function isStatisticsCookie(name) {
+        return [
+            '_ga', '_gid', '_gat', '__utma', '__utmb', '__utmc', '__utmz',
+            '_gat_gtag_', '_gads', '_gac_', '_hj', '_hjTLDTest'
+        ].some(prefix => name.startsWith(prefix));
+    }
+
+    function isMarketingCookie(name) {
+        return [
+            '_fbp', '_fbc', '_gcl_', 'IDE', 'DSID', 'fr', 'personalization_id',
+            '_tt_', 'MUID', 'cto_', 'li_fat_id', 'bcookie', 'lidc', 'guest_id',
+            'uid', 'C', 'cid', 'sbjs_'
+        ].some(prefix => name.startsWith(prefix));
     }
 
     /**
