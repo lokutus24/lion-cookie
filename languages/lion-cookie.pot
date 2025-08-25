@@ -1,0 +1,303 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: lion-cookie\n"
+"Language: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: PHPStorm\n"
+
+msgid "Ez az oldal sütiket használ"
+msgstr ""
+
+msgid "Weboldalunkon „cookie”-kat (továbbiakban „süti”) alkalmazunk. Ezek olyan fájlok, melyek információt tárolnak webes böngészőjében. Ehhez az Ön hozzájárulása szükséges."
+msgstr ""
+
+msgid "A „sütiket” az elektronikus hírközlésről szóló 2003. évi C. törvény, az elektronikus kereskedelmi szolgáltatások, az információs társadalommal összefüggő szolgáltatások egyes kérdéseiről szóló 2001. évi CVIII. törvény, valamint az Európai Unió előírásainak megfelelően használjuk. Azon weblapoknak, melyek az Európai Unió országain belül működnek, a „sütik” használatához, és ezeknek a felhasználó számítógépén vagy egyéb eszközén történő tárolásához a felhasználók hozzájárulását kell kérniük."
+msgstr ""
+
+msgid "Részletek"
+msgstr ""
+
+msgid "Összes engedélyezése"
+msgstr ""
+
+msgid "Elutasít"
+msgstr ""
+
+msgid "Szükséges sütik"
+msgstr ""
+
+msgid "A szükséges sütik alapvető funkciók, például az oldal navigációja és a weboldal biztonságos területeihez való hozzáférés engedélyezésével segítenek a weboldal használhatóvá tételében. Ezek a sütik nélkül a weboldal nem működhet megfelelően."
+msgstr ""
+
+msgid "Statisztikai sütik"
+msgstr ""
+
+msgid "A statisztikai sütik segítenek a weboldal tulajdonosainak megérteni, hogyan lépnek kapcsolatba a látogatók a weboldalakkal azáltal, hogy anonim módon gyűjtik és jelentik az információkat."
+msgstr ""
+
+msgid "Marketing sütik"
+msgstr ""
+
+msgid "A marketing sütik a látogatók nyomon követésére szolgálnak különböző weboldalakon. Céljuk olyan hirdetések megjelenítése, amelyek relevánsak és érdekesek az egyes felhasználók számára, így értékesebbek a kiadók és harmadik fél hirdetők számára."
+msgstr ""
+
+msgid "Vissza"
+msgstr ""
+
+msgid "Érték:"
+msgstr ""
+
+msgid "A WordPress által használt teszt süti annak ellenőrzésére, hogy a böngésző engedélyezi-e a sütiket."
+msgstr ""
+
+msgid "A WordPress ezt a sütit használja a bejelentkezett felhasználók azonosítására, és a bejelentkezett állapot fenntartására."
+msgstr ""
+
+msgid "Ez a WordPress süti a felhasználó admin felületének és dashboardjának testreszabott megjelenését tárolja."
+msgstr ""
+
+msgid "Ez a WordPress süti a beállítások időbélyegét tárolja, és segít a felhasználói testreszabás fenntartásában."
+msgstr ""
+
+msgid "A WooCommerce ezt a sütit használja annak megállapítására, hogy a vásárlói kosár módosult-e."
+msgstr ""
+
+msgid "A WooCommerce használja a kosárban lévő tételek nyomon követésére."
+msgstr ""
+
+msgid "A WooCommerce használja a felhasználói munkamenet azonosítására és a kosár adatok megőrzésére a böngészés során."
+msgstr ""
+
+msgid "A WordPress által használt teszt süti annak ellenőrzésére, hogy a böngésző engedélyezi-e a sütiket."
+msgstr ""
+
+msgid "A WordPress ezt a sütit a felhasználó által kiválasztott nyelvi beállítás tárolására használja."
+msgstr ""
+
+msgid "A WordPress ezt a sütit a felhasználói beállítások mentésére használja az adminisztrációs felület és az irányítópult személyre szabásához."
+msgstr ""
+
+msgid "A WordPress ezt a sütit a beállítások időbélyegének tárolására használja, hogy megőrizze a felhasználó személyre szabott beállításait."
+msgstr ""
+
+msgid "A Google Analytics által használt süti a felhasználók megkülönböztetésére szolgál."
+msgstr ""
+
+msgid "A Google Analytics által használt süti a felhasználók megkülönböztetésére, naponta frissítve."
+msgstr ""
+
+msgid "A Google Analytics által használt süti a lekérdezési arány csökkentésére."
+msgstr ""
+
+msgid "Ez a Google Analytics süti a felhasználók és munkamenetek megkülönböztetésére szolgál."
+msgstr ""
+
+msgid "A Google Analytics ezt a sütit használja új munkamenetek/megtekintések meghatározására."
+msgstr ""
+
+msgid "Ez a Google Analytics által használt süti a régebbi böngészési munkamenetek kezelésére szolgál."
+msgstr ""
+
+msgid "A Google Analytics ezen sütije nyomon követi a forgalmi forrásokat és navigációs útvonalakat."
+msgstr ""
+
+msgid "A Google Analytics által használt süti egy speciális Google Analytics mérés azonosítójához kapcsolódóan."
+msgstr ""
+
+msgid "Google Ads szolgáltatáshoz tartozó süti a hirdetések megjelenítésére és teljesítménymérésére szolgál."
+msgstr ""
+
+msgid "Google Ads süti, amely a kampányok hatékonyságát követi nyomon."
+msgstr ""
+
+msgid "A Hotjar által használt süti, amely a látogatók viselkedésének követésére szolgál."
+msgstr ""
+
+msgid "Hotjar süti, amely a legmagasabb szintű tartomány azonosítására szolgál a követéshez."
+msgstr ""
+
+msgid "A Facebook Pixel által használt süti a hirdetések célzására és a felhasználói viselkedés követésére."
+msgstr ""
+
+msgid "A Facebook Pixel által használt süti, amely rögzíti a hirdetési kattintásokat."
+msgstr ""
+
+msgid "Google AdSense süti, amely a hirdetések hatékonyságát méri."
+msgstr ""
+
+msgid "A Google DoubleClick hirdetési platform által használt süti, amely a hirdetések teljesítményének nyomon követésére szolgál."
+msgstr ""
+
+msgid "A Google DoubleClick által használt süti a hirdetések személyre szabására több eszközön."
+msgstr ""
+
+msgid "A Facebook által használt süti a felhasználók azonosítására és a hirdetések hatékonyságának nyomon követésére."
+msgstr ""
+
+msgid "A Twitter által használt süti a hirdetések személyre szabására."
+msgstr ""
+
+msgid "A TikTok által használt süti a felhasználói viselkedés követésére."
+msgstr ""
+
+msgid "A Microsoft által használt süti a felhasználók azonosítására a különböző Microsoft szolgáltatásokban."
+msgstr ""
+
+msgid "A Criteo hirdetési szolgáltatás süti a hirdetések célzására."
+msgstr ""
+
+msgid "A LinkedIn által használt süti a felhasználók viselkedésének nyomon követésére a LinkedIn hirdetésekhez."
+msgstr ""
+
+msgid "A LinkedIn által használt süti a böngészők azonosítására és a biztonság növelésére."
+msgstr ""
+
+msgid "A LinkedIn által használt süti a hirdetések teljesítményének nyomon követésére."
+msgstr ""
+
+msgid "A Twitter által használt süti a nem bejelentkezett felhasználók azonosítására."
+msgstr ""
+
+msgid "A felhasználók egyedi azonosítására szolgáló süti a különböző hirdetési hálózatok által."
+msgstr ""
+
+msgid "A HubSpot által használt süti a marketingkampányok követésére."
+msgstr ""
+
+msgid "A felhasználók egyedi azonosítására szolgáló süti a hirdetési hálózatok által."
+msgstr ""
+
+msgid "Lion Cookie"
+msgstr ""
+
+msgid "Lion Cookie Beállítások"
+msgstr ""
+
+msgid "Süti Popup Engedélyezése"
+msgstr ""
+
+msgid "Szín Beállítások"
+msgstr ""
+
+msgid "Kép Beállítások"
+msgstr ""
+
+msgid "Jobb oldali gombok színe:"
+msgstr ""
+
+msgid "Jobb oldali gombok hover színe:"
+msgstr ""
+
+msgid "Részletek gomb színe:"
+msgstr ""
+
+msgid "Részletek gomb hover színe:"
+msgstr ""
+
+msgid "Popup Kép:"
+msgstr ""
+
+msgid "Kép kiválasztása"
+msgstr ""
+
+msgid "Popup Kép Előnézet"
+msgstr ""
+
+msgid "Cookie Statisztikák"
+msgstr ""
+
+msgid "Statisztikák"
+msgstr ""
+
+msgid "Cookie Döntések Statisztikái"
+msgstr ""
+
+msgid "Összes Munkamenet"
+msgstr ""
+
+msgid "Elfogadott"
+msgstr ""
+
+msgid "Elutasított"
+msgstr ""
+
+msgid "Nem döntött"
+msgstr ""
+
+msgid "Elfogadási Arány"
+msgstr ""
+
+msgid "Elfogadási Arányok"
+msgstr ""
+
+msgid "Összes munkamenet"
+msgstr ""
+
+msgid "Elfogadott / Elutasított"
+msgstr ""
+
+msgid "Teljes Elfogadási Arány"
+msgstr ""
+
+msgid "Elfogadott / Elutasított Arány"
+msgstr ""
+
+msgid "Információt tárol a sütik migrációjáról vagy verziófrissítéséről az eszközön."
+msgstr ""
+
+msgid "Tárolja a látogató aktuális interakcióival kapcsolatos adatokat, például az aktuális érkezési forrást vagy kampányinformációkat."
+msgstr ""
+
+msgid "A látogató első interakciójának adatait tartalmazza, például az első érkezési forrást vagy a látogatás időpontját."
+msgstr ""
+
+msgid "Részletes adatokat tárol az aktuális látogatásról, például forrásokat, közvetítőket, kampányokat és más marketinginformációkat."
+msgstr ""
+
+msgid "A látogató első látogatásának részleteit tárolja, hasonlóan az aktuális látogatási adatokhoz, de a legelső érkezés alapján."
+msgstr ""
+
+msgid "Információkat tartalmaz a látogató böngészőjéről és eszközéről, például az IP-címről és az operációs rendszerről."
+msgstr ""
+
+msgid "Nyomon követi a látogatások számát és az aktuális oldallátogatás URL-jét a munkamenet során."
+msgstr ""
+
+msgid "Kiválasztottak engedélyezése"
+msgstr ""
+
+msgid "Mindent elfogadott"
+msgstr ""
+
+msgid "Csak a szükségesek"
+msgstr ""
+
+msgid "Szükségesek és marketing"
+msgstr ""
+
+msgid "Szükségesek és statisztika"
+msgstr ""
+
+msgid "Elutasított (csak a szükségeseket fogadta el)"
+msgstr ""
+
+msgid "Szükségesek és marketing elfogadva"
+msgstr ""
+
+msgid "Szükségesek és statisztika elfogadva"
+msgstr ""
+
+msgid "Teljes elfogadási arány"
+msgstr ""
+
+msgid "Részleges elfogadási arány"
+msgstr ""
+
+msgid "Elfogadási és elutasítási Arányok"
+msgstr ""
+
+msgid "Elfogadási Típusok"
+msgstr ""
+

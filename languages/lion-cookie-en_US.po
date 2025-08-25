@@ -1,0 +1,302 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: lion-cookie\n"
+"Language: en_US\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: PHPStorm\n"
+
+msgid "Ez az oldal sütiket használ"
+msgstr "This site uses cookies"
+
+msgid "Weboldalunkon „cookie”-kat (továbbiakban „süti”) alkalmazunk. Ezek olyan fájlok, melyek információt tárolnak webes böngészőjében. Ehhez az Ön hozzájárulása szükséges."
+msgstr "Our website uses \"cookies\" (hereinafter referred to as \"cookies\"). These are files that store information in your web browser. Your consent is required for this."
+
+msgid "A „sütiket” az elektronikus hírközlésről szóló 2003. évi C. törvény, az elektronikus kereskedelmi szolgáltatások, az információs társadalommal összefüggő szolgáltatások egyes kérdéseiről szóló 2001. évi CVIII. törvény, valamint az Európai Unió előírásainak megfelelően használjuk. Azon weblapoknak, melyek az Európai Unió országain belül működnek, a „sütik” használatához, és ezeknek a felhasználó számítógépén vagy egyéb eszközén történő tárolásához a felhasználók hozzájárulását kell kérniük."
+msgstr "Cookies are used in accordance with the Electronic Communications Act of 2003, the Act on Electronic Commerce Services, certain issues of Information Society Services of 2001, and the European Union regulations. Websites operating within the European Union must obtain user consent to use cookies and store them on users' computers or other devices."
+
+msgid "Részletek"
+msgstr "Details"
+
+msgid "Összes engedélyezése"
+msgstr "Allow all"
+
+msgid "Elutasít"
+msgstr "Reject"
+
+msgid "Szükséges sütik"
+msgstr "Necessary cookies"
+
+msgid "A szükséges sütik alapvető funkciók, például az oldal navigációja és a weboldal biztonságos területeihez való hozzáférés engedélyezésével segítenek a weboldal használhatóvá tételében. Ezek a sütik nélkül a weboldal nem működhet megfelelően."
+msgstr "Necessary cookies enable basic functions, such as page navigation and access to secure areas of the website, making the website usable. Without these cookies, the website cannot function properly."
+
+msgid "Statisztikai sütik"
+msgstr "Statistical cookies"
+
+msgid "A statisztikai sütik segítenek a weboldal tulajdonosainak megérteni, hogyan lépnek kapcsolatba a látogatók a weboldalakkal azáltal, hogy anonim módon gyűjtik és jelentik az információkat."
+msgstr "Statistical cookies help website owners understand how visitors interact with websites by collecting and reporting information anonymously."
+
+msgid "Marketing sütik"
+msgstr "Marketing cookies"
+
+msgid "A marketing sütik a látogatók nyomon követésére szolgálnak különböző weboldalakon. Céljuk olyan hirdetések megjelenítése, amelyek relevánsak és érdekesek az egyes felhasználók számára, így értékesebbek a kiadók és harmadik fél hirdetők számára."
+msgstr "Marketing cookies are used to track visitors across websites. Their purpose is to display ads that are relevant and interesting to individual users, making them more valuable for publishers and third-party advertisers."
+
+msgid "Vissza"
+msgstr "Back"
+
+msgid "Érték:"
+msgstr "Value:"
+
+msgid "A WordPress által használt teszt süti annak ellenőrzésére, hogy a böngésző engedélyezi-e a sütiket."
+msgstr "A test cookie used by WordPress to check if the browser allows cookies."
+
+msgid "A WordPress ezt a sütit használja a bejelentkezett felhasználók azonosítására, és a bejelentkezett állapot fenntartására."
+msgstr "This cookie is used by WordPress to identify logged-in users and maintain their logged-in status."
+
+msgid "Ez a WordPress süti a felhasználó admin felületének és dashboardjának testreszabott megjelenését tárolja."
+msgstr "This WordPress cookie stores the customized view of the user’s admin interface and dashboard."
+
+msgid "Ez a WordPress süti a beállítások időbélyegét tárolja, és segít a felhasználói testreszabás fenntartásában."
+msgstr "This WordPress cookie stores the timestamp of settings to maintain user customization."
+
+msgid "A WooCommerce ezt a sütit használja annak megállapítására, hogy a vásárlói kosár módosult-e."
+msgstr "This cookie is used by WooCommerce to determine if the shopping cart has changed."
+
+msgid "A WooCommerce használja a kosárban lévő tételek nyomon követésére."
+msgstr "Used by WooCommerce to track items in the cart."
+
+msgid "A WooCommerce használja a felhasználói munkamenet azonosítására és a kosár adatok megőrzésére a böngészés során."
+msgstr "WooCommerce uses this to identify the user session and preserve cart data during browsing."
+
+msgid "A WordPress által használt teszt süti annak ellenőrzésére, hogy a böngésző engedélyezi-e a sütiket."
+msgstr "A test cookie used by WordPress to check if the browser allows cookies."
+
+msgid "A WordPress ezt a sütit a felhasználó által kiválasztott nyelvi beállítás tárolására használja."
+msgstr "This cookie is used by WordPress to store the language settings selected by the user."
+
+msgid "A WordPress ezt a sütit a felhasználói beállítások mentésére használja az adminisztrációs felület és az irányítópult személyre szabásához."
+msgstr "This cookie is used by WordPress to save user settings for customizing the admin interface and dashboard."
+
+msgid "A WordPress ezt a sütit a beállítások időbélyegének tárolására használja, hogy megőrizze a felhasználó személyre szabott beállításait."
+msgstr "WordPress uses this cookie to store the timestamp of settings to preserve the user’s personalized preferences."
+
+msgid "A Google Analytics által használt süti a felhasználók megkülönböztetésére szolgál."
+msgstr "A cookie used by Google Analytics to distinguish users."
+
+msgid "A Google Analytics által használt süti a felhasználók megkülönböztetésére, naponta frissítve."
+msgstr "A Google Analytics cookie to distinguish users, refreshed daily."
+
+msgid "A Google Analytics által használt süti a lekérdezési arány csökkentésére."
+msgstr "A cookie used by Google Analytics to throttle request rates."
+
+msgid "Ez a Google Analytics süti a felhasználók és munkamenetek megkülönböztetésére szolgál."
+msgstr "This Google Analytics cookie is used to distinguish between users and sessions."
+
+msgid "A Google Analytics ezt a sütit használja új munkamenetek/megtekintések meghatározására."
+msgstr "Google Analytics uses this cookie to determine new sessions/visits."
+
+msgid "Ez a Google Analytics által használt süti a régebbi böngészési munkamenetek kezelésére szolgál."
+msgstr "This cookie is used by Google Analytics to manage older browsing sessions."
+
+msgid "A Google Analytics ezen sütije nyomon követi a forgalmi forrásokat és navigációs útvonalakat."
+msgstr "This Google Analytics cookie tracks traffic sources and navigation paths."
+
+msgid "A Google Analytics által használt süti egy speciális Google Analytics mérés azonosítójához kapcsolódóan."
+msgstr "A Google Analytics cookie related to a specific Google Analytics measurement ID."
+
+msgid "Google Ads szolgáltatáshoz tartozó süti a hirdetések megjelenítésére és teljesítménymérésére szolgál."
+msgstr "A Google Ads cookie used for displaying ads and measuring ad performance."
+
+msgid "Google Ads süti, amely a kampányok hatékonyságát követi nyomon."
+msgstr "A Google Ads cookie that tracks the effectiveness of campaigns."
+
+msgid "A Hotjar által használt süti, amely a látogatók viselkedésének követésére szolgál."
+msgstr "A cookie used by Hotjar to track visitor behavior."
+
+msgid "Hotjar süti, amely a legmagasabb szintű tartomány azonosítására szolgál a követéshez."
+msgstr "A Hotjar cookie for identifying the highest level domain for tracking purposes."
+
+msgid "A Facebook Pixel által használt süti a hirdetések célzására és a felhasználói viselkedés követésére."
+msgstr "A cookie used by Facebook Pixel for ad targeting and tracking user behavior."
+
+msgid "A Facebook Pixel által használt süti, amely rögzíti a hirdetési kattintásokat."
+msgstr "A cookie used by Facebook Pixel to log ad clicks."
+
+msgid "Google AdSense süti, amely a hirdetések hatékonyságát méri."
+msgstr "A Google AdSense cookie that measures the effectiveness of ads."
+
+msgid "A Google DoubleClick hirdetési platform által használt süti, amely a hirdetések teljesítményének nyomon követésére szolgál."
+msgstr "A cookie used by the Google DoubleClick ad platform to track ad performance."
+
+msgid "A Google DoubleClick által használt süti a hirdetések személyre szabására több eszközön."
+msgstr "A cookie used by Google DoubleClick for cross-device ad personalization."
+
+msgid "A Facebook által használt süti a felhasználók azonosítására és a hirdetések hatékonyságának nyomon követésére."
+msgstr "A cookie used by Facebook to identify users and track ad effectiveness."
+
+msgid "A Twitter által használt süti a hirdetések személyre szabására."
+msgstr "A cookie used by Twitter for ad personalization."
+
+msgid "A TikTok által használt süti a felhasználói viselkedés követésére."
+msgstr "A cookie used by TikTok to track user behavior."
+
+msgid "A Microsoft által használt süti a felhasználók azonosítására a különböző Microsoft szolgáltatásokban."
+msgstr "A cookie used by Microsoft to identify users across various Microsoft services."
+
+msgid "A Criteo hirdetési szolgáltatás süti a hirdetések célzására."
+msgstr "A cookie used by Criteo ad service for ad targeting."
+
+msgid "A LinkedIn által használt süti a felhasználók viselkedésének nyomon követésére a LinkedIn hirdetésekhez."
+msgstr "A cookie used by LinkedIn to track user behavior for LinkedIn ads."
+
+msgid "A LinkedIn által használt süti a böngészők azonosítására és a biztonság növelésére."
+msgstr "A cookie used by LinkedIn to identify browsers and enhance security."
+
+msgid "A LinkedIn által használt süti a hirdetések teljesítményének nyomon követésére."
+msgstr "A cookie used by LinkedIn to track ad performance."
+
+msgid "A Twitter által használt süti a nem bejelentkezett felhasználók azonosítására."
+msgstr "A cookie used by Twitter to identify non-logged-in users."
+
+msgid "A felhasználók egyedi azonosítására szolgáló süti a különböző hirdetési hálózatok által."
+msgstr "A cookie used by various ad networks for unique user identification."
+
+msgid "A HubSpot által használt süti a marketingkampányok követésére."
+msgstr "A cookie used by HubSpot to track marketing campaigns."
+
+msgid "A felhasználók egyedi azonosítására szolgáló süti a hirdetési hálózatok által."
+msgstr "A cookie used by ad networks to uniquely identify users."
+
+msgid "Lion Cookie"
+msgstr "Lion Cookie"
+
+msgid "Lion Cookie Beállítások"
+msgstr "Lion Cookie Settings"
+
+msgid "Süti Popup Engedélyezése"
+msgstr "Enable Cookie Popup"
+
+msgid "Szín Beállítások"
+msgstr "Color Settings"
+
+msgid "Kép Beállítások"
+msgstr "Image Settings"
+
+msgid "Jobb oldali gombok színe:"
+msgstr "Right Button Color:"
+
+msgid "Jobb oldali gombok hover színe:"
+msgstr "Right Button Hover Color:"
+
+msgid "Részletek gomb színe:"
+msgstr "Details Button Color:"
+
+msgid "Részletek gomb hover színe:"
+msgstr "Details Button Hover Color:"
+
+msgid "Popup Kép:"
+msgstr "Popup Image:"
+
+msgid "Kép kiválasztása"
+msgstr "Choose Image"
+
+msgid "Popup Kép Előnézet"
+msgstr "Popup Image Preview"
+
+msgid "Cookie Statisztikák"
+msgstr "Cookie Statistics"
+
+msgid "Statisztikák"
+msgstr "Statistics"
+
+msgid "Cookie Döntések Statisztikái"
+msgstr "Statistics of Cookie Choices"
+
+msgid "Összes Munkamenet"
+msgstr "All Sessions"
+
+msgid "Elfogadott"
+msgstr "Accepted"
+
+msgid "Elutasított"
+msgstr "Rejected"
+
+msgid "Nem döntött"
+msgstr "Did not choose"
+
+msgid "Elfogadási Arány"
+msgstr "Acceptance rate"
+
+msgid "Elfogadási Arányok"
+msgstr "Acceptance rates"
+
+msgid "Összes munkamenet"
+msgstr "All sessions"
+
+msgid "Elfogadott / Elutasított"
+msgstr "Accepted / Rejected"
+
+msgid "Teljes Elfogadási Arány"
+msgstr "Total Acceptance Rate"
+
+msgid "Elfogadott / Elutasított Arány"
+msgstr "Accepted / Rejected Ratio"
+
+msgid "Információt tárol a sütik migrációjáról vagy verziófrissítéséről az eszközön."
+msgstr "Stores information about cookie migration or version updates on the device."
+
+msgid "Tárolja a látogató aktuális interakcióival kapcsolatos adatokat, például az aktuális érkezési forrást vagy kampányinformációkat."
+msgstr "Stores data about the visitor's current interactions, such as the current arrival source or campaign information."
+
+msgid "A látogató első interakciójának adatait tartalmazza, például az első érkezési forrást vagy a látogatás időpontját."
+msgstr "Contains data about the visitor's first interaction, such as the initial arrival source or the time of the visit."
+
+msgid "Részletes adatokat tárol az aktuális látogatásról, például forrásokat, közvetítőket, kampányokat és más marketinginformációkat."
+msgstr "Stores detailed data about the current visit, such as sources, referrers, campaigns, and other marketing information."
+
+msgid "A látogató első látogatásának részleteit tárolja, hasonlóan az aktuális látogatási adatokhoz, de a legelső érkezés alapján."
+msgstr "Stores details of the visitor's first visit, similar to current visit data, but based on the initial arrival."
+
+msgid "Információkat tartalmaz a látogató böngészőjéről és eszközéről, például az IP-címről és az operációs rendszerről."
+msgstr "Contains information about the visitor's browser and device, such as the IP address and operating system."
+
+msgid "Nyomon követi a látogatások számát és az aktuális oldallátogatás URL-jét a munkamenet során."
+msgstr "Tracks the number of visits and the current page visit URL during the session."
+
+msgid "Kiválasztottak engedélyezése"
+msgstr "Allow selected"
+
+msgid "Mindent elfogadott"
+msgstr "Accepted everything"
+
+msgid "Csak a szükségesek"
+msgstr "Only necessary"
+
+msgid "Szükségesek és marketing"
+msgstr "Necessary and marketing"
+
+msgid "Szükségesek és statisztika"
+msgstr "Necessary and statistics"
+
+msgid "Elutasított (csak a szükségeseket fogadta el)"
+msgstr "Rejected (only accepted the necessary ones)"
+
+msgid "Szükségesek és marketing elfogadva"
+msgstr "Necessary and marketing accepted"
+
+msgid "Szükségesek és statisztika elfogadva"
+msgstr "Necessary and statistics accepted"
+
+msgid "Teljes elfogadási arány"
+msgstr "Overall acceptance rate"
+
+msgid "Részleges elfogadási arány"
+msgstr "Partial acceptance rate"
+
+msgid "Elfogadási és elutasítási Arányok"
+msgstr "Acceptance and Rejection Rates"
+
+msgid "Elfogadási Típusok"
+msgstr "Acceptance Types"
