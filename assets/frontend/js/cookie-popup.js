@@ -79,7 +79,6 @@ document.addEventListener('DOMContentLoaded', function () {
         /^_gid$/,                // GA
         /^_gat(_.*)?$/,          // GA throttle
         /^_gac_.*$/,             // Google Ads kampány info
-        /^_gcl_au$/,             // Google Ads auto-tagging (statisztika/attrib)
         /^_clck$/, /^_clsk$/, /^CLID$/, /^ANONCHK$/, /^MR$/, /^MUID$/, // Microsoft Clarity/Microsoft
         /^_hj.*$/,               // Hotjar
         /^_pk_id\..*$/, /^_pk_ses\..*$/, /^_pk_ref\..*$/ // Matomo/Piwik
