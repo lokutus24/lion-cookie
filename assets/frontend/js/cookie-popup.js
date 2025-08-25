@@ -11,17 +11,28 @@ document.addEventListener('DOMContentLoaded', function () {
     window.gtag = window.gtag || function() { dataLayer.push(arguments); };
 
     /**
-     * Ha nincs még döntés, denied a default és megjelenik a popup
+     * Consent mód inicializálása a korábbi döntés alapján
      */
     function initializeConsentMode() {
-        if (!getCookie('user_accepted_cookies')) {
-            gtag('consent', 'default', {
-                'ad_storage': 'denied',
-                'analytics_storage': 'denied',
-                'personalization_storage': 'denied'
-            });
-            cookiePopup.style.display = 'flex';
+        const stored = getCookie('user_accepted_cookies');
+
+        if (stored) {
+            try {
+                const preferences = JSON.parse(stored);
+                updateConsentMode(preferences);
+                removeDisallowedCookies(preferences);
+                return;
+            } catch (e) {
+                console.warn('Invalid stored cookie preferences', e);
+            }
         }
+
+        gtag('consent', 'default', {
+            'ad_storage': 'denied',
+            'analytics_storage': 'denied',
+            'personalization_storage': 'denied'
+        });
+        cookiePopup.style.display = 'flex';
     }
 
     /**
