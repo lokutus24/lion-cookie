@@ -7,6 +7,7 @@ spl_autoload_register(function ($class_name) {
         'CookieActivate' => 'Base/CookieActivate.php',
         'CookieDeactivate' => 'Base/CookieDeactivate.php',
         'CookieEnqueue' => 'Base/CookieEnqueue.php',
+        'TrackingCodeManagerBlocker' => 'Base/TrackingCodeManagerBlocker.php',
         
         'AdminMenu' => 'Admin/AdminMenu.php',
         'CookieSettings' => 'Admin/CookieSettings.php',
@@ -38,6 +39,7 @@ final class LionCookieInit {
             CookieDescriptions::class,
             CookieStatistics::class,
             CookieChangeDecision::class,
+            TrackingCodeManagerBlocker::class,
         ];
     }
 
