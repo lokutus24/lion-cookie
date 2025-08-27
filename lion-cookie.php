@@ -10,6 +10,10 @@ Author URI: https://lionstack.hu
 
 defined('ABSPATH') or die('No script kiddies please!');
 
+if (!defined('COOKIE_VERSION')) {
+    define('COOKIE_VERSION', 'v0.1.2');
+}
+
 require_once plugin_dir_path(__FILE__) . 'inc/LionCookieInit.php';
 
 if (class_exists('LionCookieInit')) {

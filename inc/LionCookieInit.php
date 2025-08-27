@@ -4,6 +4,7 @@ spl_autoload_register(function ($class_name) {
     $root = plugin_dir_path(__FILE__);
 
     $classes = [
+        'CookieUpdater' => 'Base/CookieUpdater.php',
         'CookieActivate' => 'Base/CookieActivate.php',
         'CookieDeactivate' => 'Base/CookieDeactivate.php',
         'CookieEnqueue' => 'Base/CookieEnqueue.php',
@@ -40,6 +41,7 @@ final class LionCookieInit {
             CookieStatistics::class,
             CookieChangeDecision::class,
             TrackingCodeManagerBlocker::class,
+            CookieUpdater::class,
         ];
     }
 
